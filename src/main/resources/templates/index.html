@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .styled-container {
+            width: 280px;
+            height: 100px;
+            background: #677B7B;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            background: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 30px; /* 텍스트 크기 조절 */
+        }
+
+        .login-container {
+            margin-right: 20px;
+        }
+
+        .signup-container {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="styled-container login-container">
+    <form action="/Login/login">
+        <button type="submit">로그인</button>
+    </form>
+</div>
+
+<div class="styled-container signup-container">
+    <form action="/Login/save">
+        <button type="submit">회원가입</button>
+    </form>
+</div>
+</body>
+</html>
